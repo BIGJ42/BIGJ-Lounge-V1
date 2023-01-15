@@ -1,0 +1,102 @@
+<html>
+<head>
+  <title>Login to Mega Client</title>
+<h1> A password has been added to the client for better security.<h1>
+<h1> Visit https://github.com/Mega-Client to get the login for the client.<h1>
+<script>
+    function login() {
+      // Get the entered username and password
+      var username = document.getElementById("username").value;
+      var password = document.getElementById("password").value;
+      
+      // Check the entered credentials
+      if (username == "snake" && password == "gamesite") {
+        // Redirect to the home page
+        window.location.href = "snake/snake.html";
+      } else {
+        // Show an error message
+        alert("Invalid username or password!");
+      }
+    }
+
+      // Check the entered credentials
+      if (username == "dino" && password == "gamesite") {
+        // Redirect to the home page
+        window.location.href = "dino/dino.html";
+      } else {
+        // Show an error message
+        alert("Invalid username or password!");
+      }
+    }
+  </script>
+</head>
+<body>
+  <form>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    <br>
+    <button type="button" onclick="login()">Login</button>
+  </form>
+ 
+  <style>
+    body {
+ background-color: #E6E6FA;
+ text-align: center;
+ background-color: 
+}
+
+* {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.lgnd {
+  background-color: ;
+  font-size: 30px;
+  width: 60px;
+  border-width: 20px;
+  font-family: "Sofia", sans-serif;
+  font-size: 20px;
+ }
+
+h1 {
+  display: block;
+  font-size: 50px;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+btn {
+  float: center;
+}
+
+button {
+  margin: 20px;
+  background-color: black;
+  color: red;
+  height: 100px;
+  width: 150px;
+  border-radius: 10px;
+  border: solid red 15px;
+}
+    
+    input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+   input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+  </style
+  
+</body>
+</html>
