@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "BIGJ'S Lounge",
+  "description": "An extension for chrome of my website.",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "favicon.ico"
+  }
+}
